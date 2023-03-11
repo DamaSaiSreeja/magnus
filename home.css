@@ -1,0 +1,164 @@
+.logout {
+    float: right;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+    font-size: 15px;
+}
+.navbar {
+    background-color: rgba(53, 129, 195, 0.8);
+    position: fixed;
+}
+.logo {
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+    margin-left: 60px;
+    font-weight: 500;
+}
+  
+.sidebar {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.sidebar ul ul {
+    display: none;
+}
+
+.sidebar ul li:hover ul {
+    display: block;
+}
+
+.sidebar-toggle {
+    color: white;
+    left: -250px;
+}
+
+.sidebar ul li:hover {
+    color: white;
+    background: rgb(46, 45, 45);
+}
+
+.sidebar li {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    list-style: none;
+}
+  
+.sidebar li a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.guest-user {
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.guest {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.user {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.user i {
+    margin-right: 10px;
+}
+
+.icon {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.body {
+    background-color: rgb(220, 218, 227);
+    height: 85vh;
+}
+
+.content {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.head {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.heading {
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.box {
+    background-color: white;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1000px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.Box {
+    background-color: white;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1000px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.paragraph {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.card {
+    margin-left: 251px;
+}
+
+.foot {
+    font-size: 15px;
+    background-color: white;
+    height: 50px;
+    padding: 20px;
+}
+
+.foot .black {
+    font-weight: bold;
+}
+
+.card .color {
+    font-weight: bold;
+}
